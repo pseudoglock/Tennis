@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gilroy';
+}
+
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+
+
+.header{
+    background-image: url(/img/headPhoto.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.header_block{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{}
+
+.nav_link{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+
+}
+
+.icons_header{
+    display: flex;
+    align-items: center;
+}
+
+.icon__header{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.tennis_club{
+    margin-top: 200px;
+}
+
+.name_tennis_club{
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.button_play_block{
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+}
+.button_play_block img{
+    transition: .2s;
+    cursor: pointer;
+}
+
+.button_play_block img:hover{
+    opacity: .7;
+}
+
+.show_video_text{
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.cards_uslugi{
+    margin-top: 202px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_uslugi{
+    padding: 35px;
+    width: 315px;
+    height: 151px;
+    background-color: #8D86C9;
+    cursor: pointer;
+}
+
+.title_uslugi{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.info_card{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.link_card{
+    float: right;
+}
+
+.info_cards{
+    margin-top: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_cards div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 376px;
+    height: 450px;
+}
+
+.info__card_one{
+    background-image: url(/img/oneCard.png);
+}
+
+.info__card_two{
+    background-image: url(/img/twoCard.png);
+}
+
+.info__card_three{
+    background-image: url(/img/threeCard.png);
+}
+
+.card__info_title{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+
+.sport_club{
+    position: relative;
+    margin-top: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card_sport__club{
+    background-color: #F7ECE1;
+    width: 636px;
+    height: 654px;
+}
+
+.content_card_sport__club{
+    padding-left: 146px;
+    padding-top: 70px;
+    padding-right: 60px;
+    padding-bottom: 84px;
+}
+
+.title_sport__club{
+    font-family: 'Gilroy';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    color: #333333;
+}
+
+.text_sport__club{
+    margin-top: 25px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;    
+    color: #333333;
+}
+
+.title_list_sport{
+    margin-top: 35px;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 140%;
+    color: #333333;
+}
+
+.ul_sport_club{
+    margin-top: 25px;
+    padding-left: 25px;
+}
+
+.li_sport_club {
+    margin-bottom: 23px;
+    position: relative;
+    list-style-type: none;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+}
+
+.li_sport_club::before{
+    content: "";
+    position: absolute;
+    left: -23px;
+    bottom: 26px;
+    background-color: #8D86C9;
+    width: 8px;
+    height: 8px;
+
+}
+
+.photo_sport__club{
+    position: absolute;
+    left: 16%;
+    top: 12%;
+}
+
+.cards_person_stuff{
+    display: flex;
+    justify-content: space-between;
+}
